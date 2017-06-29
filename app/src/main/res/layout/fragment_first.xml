@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        >
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/first_fragment_iv_scan"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/icon_scan_top"
+            />
+        <Button
+
+            android:textColor="@color/text_hei"
+            android:textColorHint="@color/text_hui"
+            android:id="@+id/first_fragment_et_search"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="送你300减100神卷"
+            android:gravity="left"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:textSize="15sp"
+            android:background="@drawable/comment"
+            />
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/first_fragment_iv_mes"
+            android:layout_marginRight="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/icon_mes_top"
+            />
+    </LinearLayout>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/first_fragment_tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        />
+    <android.support.v4.view.ViewPager
+        android:id="@+id/first_fragment_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></android.support.v4.view.ViewPager>
+
+</LinearLayout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:background="@color/shop_hui"
+    >
+
+  <!--商店-->
+    <LinearLayout
+        android:id="@+id/adpter_thirdf_recycler_linear_store_name"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+
+        android:background="#ffffff"
+        >
+        <ImageView
+
+            android:id="@+id/adpter_thirdf_recycler_iv_store_select"
+            android:layout_marginLeft="7dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:src="@drawable/cpt_filter_check_on"/>
+        <TextView
+           android:textColor="@color/text_hei"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/adpter_thirdf_recycler_tv_store_name"
+
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+
+
+    </LinearLayout>
+
+<!--商品-->
+    <LinearLayout
+
+      android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:orientation="horizontal"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:background="@color/shop_hui"
+        >
+        <ImageView
+            android:layout_marginLeft="7dp"
+            android:id="@+id/adpter_thirdf_recycler_iv_shop_select"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/cpt_filter_check_on"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="center"
+            android:layout_weight="0"
+            />
+       <LinearLayout
+           android:layout_marginLeft="10dp"
+           android:layout_weight="1"
+           android:orientation="horizontal"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+
+
+           <ImageView
+               android:id="@+id/adpter_thirdf_recycler_iv_shop_pic"
+               android:layout_weight="0"
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+
+               />
+
+           <LinearLayout
+               android:layout_marginLeft="10dp"
+               android:orientation="vertical"
+               android:layout_weight="1"
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent">
+
+               <TextView
+                   android:id="@+id/adpter_thirdf_recycler_tv_shop_name"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+
+                   android:textColor="@color/text_hei"
+                   />
+               <LinearLayout
+                   android:orientation="horizontal"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+                  <!--价格-->
+               <TextView
+
+               android:id="@+id/adpter_thirdf_recycler_tv_shop_price"
+               android:layout_width="wrap_content"
+               android:layout_height="20dp"
+               android:layout_alignParentBottom="true"
+               android:layout_alignParentLeft="true"
+               android:textColor="@color/text_hong"
+               />
+<!--//加减-->
+               <LinearLayout
+                   android:layout_weight="1"
+                   android:gravity="right"
+                   android:layout_alignParentBottom="true"
+                  android:layout_alignParentRight="true"
+                   android:orientation="horizontal"
+                   android:layout_width="wrap_content"
+                   android:layout_height="20dp">
+
+                   <ImageView
+                       android:id="@+id/adpter_thirdf_recycler_btn_shop_jian"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/shoppingcart_sub_btn_enabled"
+                       />
+
+
+                   <TextView
+                       android:id="@+id/adpter_thirdf_recycler_tv_shop_sum"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:textColor="@color/text_hei"
+                    />
+
+
+                   <ImageView
+                       android:id="@+id/adpter_thirdf_recycler_btn_shop_jia"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/shoppingcart_add_btn_enabled"
+                       />
+
+               </LinearLayout>
+               </LinearLayout>
+
+
+           </LinearLayout>
+
+
+
+       </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

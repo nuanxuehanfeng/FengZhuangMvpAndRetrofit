@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/adapter_firstfragment_recycler_iv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:id="@+id/adapter_firstfragment_recycler_lilayout_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        ></LinearLayout>
+          <LinearLayout
+              android:orientation="vertical"
+              android:background="#EEEEEE"
+              android:layout_width="match_parent"
+              android:layout_height="10dp"></LinearLayout>
+
+    <ImageView
+        android:id="@+id/adapter_firstfragment_recycler_iv_shidian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <HorizontalScrollView
+        android:id="@+id/adapter_firstfragment_recycler_horizentals_shidian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:id="@+id/adapter_firstfragment_recycler_linearlayout_shidian"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></LinearLayout>
+    </HorizontalScrollView>
+
+          <LinearLayout
+              android:orientation="vertical"
+              android:background="#EEEEEE"
+              android:layout_width="match_parent"
+              android:layout_height="10dp"></LinearLayout>
+
+    <ImageView
+        android:id="@+id/adapter_firstfragment_recycler_iv_action"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:id="@+id/adapter_firstfragment_recycler_lilayout_action"
+        android:paddingTop="2dp"
+        android:background="#eeeeee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"></LinearLayout>
+
+
+          <LinearLayout
+              android:orientation="vertical"
+              android:background="#EEEEEE"
+              android:layout_width="match_parent"
+              android:layout_height="10dp"></LinearLayout>
+
+    <ImageView
+        android:id="@+id/adapter_firstfragment_recycler_iv_knowledge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:id="@+id/adapter_firstfragment_recycler_lilayout_knowledge1"
+        android:background="#eeeeee"
+        android:paddingTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"></LinearLayout>
+    <LinearLayout
+        android:id="@+id/adapter_firstfragment_recycler_lilayout_knowledge2"
+        android:paddingTop="2dp"
+        android:background="#eeeeee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"></LinearLayout>
+    <LinearLayout
+        android:id="@+id/adapter_firstfragment_recycler_lilayout_knowledge3"
+        android:paddingTop="2dp"
+        android:background="#eeeeee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"></LinearLayout>
+
+
+          <LinearLayout
+              android:orientation="vertical"
+              android:background="#EEEEEE"
+              android:layout_width="match_parent"
+              android:layout_height="10dp"></LinearLayout>
+
+    <ImageView
+        android:id="@+id/adapter_firstfragment_recycler_iv_brand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/adapter_firstfragment_recycler_iv_brand1"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:background="#eeeeee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <HorizontalScrollView
+        android:id="@+id/adapter_firstfragment_recycler_horozontal_brand1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:id="@+id/adapter_firstfragment_recycler_lilayout_brand1"
+            android:paddingTop="2dp"
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></LinearLayout>
+
+
+    </HorizontalScrollView>
+          <LinearLayout
+              android:orientation="vertical"
+              android:background="#EEEEEE"
+              android:layout_width="match_parent"
+              android:layout_height="10dp"></LinearLayout>
+    <ImageView
+        android:id="@+id/adapter_firstfragment_recycler_iv_brand2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <HorizontalScrollView
+        android:id="@+id/adapter_firstfragment_recycler_horozontal_brand2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:id="@+id/adapter_firstfragment_recycler_lilayout_brand2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></LinearLayout>
+
+    </HorizontalScrollView>
+          <LinearLayout
+              android:id="@+id/adapter_firstfragment_recycler_lilayout_last"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+
+              android:layout_height="50dp"></LinearLayout>
+      </LinearLayout>
+    </ScrollView>
+</LinearLayout>

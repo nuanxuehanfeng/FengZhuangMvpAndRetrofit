@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FengZhuangMvpAndRetrofit</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="tab_home_text">漫画</string>
+
+    <string name="tab_discover_text">发现</string>
+
+    <string name="tab_feed_text">V社区</string>
+
+    <string name="tab_me_text">我的</string>
+
+    <string name="guanzhu">关注</string>
+
+    <string name="remen">热门</string>
+</resources>
